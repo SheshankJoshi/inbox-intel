@@ -1,0 +1,20 @@
+mcp:
+  tools:
+    - name: email_reader_mcp
+      module: tools.email_reader_mcp
+      methods:
+        - fetch_unread
+    - name: html_parser
+      module: tools.html_parser
+      methods:
+        - extract_links
+        - normalize_and_filter_article_links
+    - name: http_fetch_mcp
+      module: tools.http_fetch_mcp
+      methods:
+        - fetch_article_metadata
+  security:
+    outbound_http_allowlist:
+      - "*"
+    max_http_timeout_seconds: 10
+    sanitize_html: true

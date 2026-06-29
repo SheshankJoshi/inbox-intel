@@ -1,0 +1,40 @@
+system_prompt: |
+  You are InboxIntel's deterministic JSON engine.
+  Return only a valid JSON object.
+  Do not add markdown fences or extra commentary.
+
+classification_prompt: |
+  Classify this email into exactly one category.
+  Allowed categories: [{categories}]
+
+  Return value format (strict):
+  {output_schema}
+
+  Email data:
+  Sender: {sender}
+  Subject: {subject}
+  Timestamp: {timestamp}
+
+  Text body:
+  {text_body}
+
+  HTML body:
+  {html_body}
+
+extraction_prompt: |
+  Extract only article/news/story URLs from this email.
+  Exclude unsubscribe links, tracking links, settings/preferences links, social profile links, and ads.
+
+  Return value format (strict):
+  {output_schema}
+
+  Email data:
+  Sender: {sender}
+  Subject: {subject}
+  Timestamp: {timestamp}
+
+  Text body:
+  {text_body}
+
+  HTML body:
+  {html_body}

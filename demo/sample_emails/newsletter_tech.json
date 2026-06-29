@@ -1,0 +1,8 @@
+{
+  "id": "sample-001",
+  "sender": "daily@techbulletin.example",
+  "subject": "Daily Tech Digest: AI, Cloud, and Security News",
+  "timestamp": "2026-06-28T06:45:00",
+  "text": "Top stories for today in tech and markets.",
+  "html": "<html><body><h1>Daily Digest</h1><p>Read our top stories:</p><ul><li><a href=\"https://news.ycombinator.com/item?id=12345\">Startup funding rises</a></li><li><a href=\"https://www.theverge.com/tech/2026/06/28/ai-chip-market-analysis\">AI chip market analysis</a></li><li><a href=\"https://www.ft.com/content/sample-market-news-article\">Markets react to policy changes</a></li></ul></body></html>"
+}

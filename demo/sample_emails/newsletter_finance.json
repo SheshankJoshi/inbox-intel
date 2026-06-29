@@ -1,0 +1,8 @@
+{
+  "id": "sample-003",
+  "sender": "briefing@financewire.example",
+  "subject": "Morning Market Briefing",
+  "timestamp": "2026-06-28T07:15:00",
+  "text": "Your morning finance briefing is here.",
+  "html": "<html><body><h2>Market Briefing</h2><p>Key stories:</p><a href=\"https://www.bloomberg.com/news/articles/2026-06-28/global-market-update\">Global market update</a><a href=\"https://www.reuters.com/world/economy/inflation-news-story-2026-06-28/\">Inflation outlook</a></body></html>"
+}

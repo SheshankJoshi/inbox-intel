@@ -1,0 +1,22 @@
+{
+  "name": "InboxIntel",
+  "version": "1.0.0",
+  "description": "Autonomous multi-agent inbox intelligence pipeline",
+  "agents": [
+    "SupervisorAgent",
+    "EmailIngestionAgent",
+    "EmailClassifierAgent",
+    "LinkExtractionAgent",
+    "ArticleMetadataAgent",
+    "DigestBuilderAgent",
+    "PublisherAgent"
+  ],
+  "capabilities": [
+    "email_ingestion",
+    "classification",
+    "link_extraction",
+    "metadata_fetching",
+    "digest_generation",
+    "publishing"
+  ]
+}

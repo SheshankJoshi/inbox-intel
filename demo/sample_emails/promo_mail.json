@@ -1,0 +1,8 @@
+{
+  "id": "sample-002",
+  "sender": "sales@shop.example",
+  "subject": "Weekend Sale - 50% Discount",
+  "timestamp": "2026-06-28T08:10:00",
+  "text": "Use coupon SAVE50 now.",
+  "html": "<html><body><p>Big offer today only!</p><a href=\"https://shop.example/offers/weekend-sale\">Shop now</a></body></html>"
+}
